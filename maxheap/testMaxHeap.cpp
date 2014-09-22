@@ -12,6 +12,7 @@ int main()
 	
 	int result;
 	mheap.removemax(result);
+	std::cout << result << std::endl;
 	mheap.insert(100);
 	for (int i = 0; i < mheap.heapsize(); i++)
 		std::cout << array[i] << " ";
