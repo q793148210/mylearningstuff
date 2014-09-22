@@ -7,6 +7,8 @@ template <typename T>
 
 class BinaryTree
 {
+
+
 public:
 	BinaryTree();
 	BinaryTree(T element[], int arraysize);
